@@ -1,0 +1,533 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* width: 100%;
+  height: 100%; */
+  margin: 0;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.anniversary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.logo-wrapper {
+  width: 100%;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.search-wrapper {
+  flex-shrink: 0;
+  width: 50px;
+  background-color: bisque;
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-logo {
+  width: 100%;
+  aspect-ratio: 2.5;
+  background-color: green;
+}
+
+.item-logo {
+  flex-shrink: 0;
+  width: 24px;
+  background-color: bisque;
+}
+
+.logo {
+  max-width: 100%;
+}
+.giraffe {
+  max-width: 100%;
+  padding: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* brand */
+
+.brand {
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+  line-height: 35px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.brand-title {
+  max-width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+  line-height: 35px;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.brand-content {
+  max-width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  text-align: left;
+  color: black;
+}
+
+/* card */
+
+.card-container {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.card {
+  max-width: 100%;
+  padding: 30px 0;
+}
+
+.card-photo {
+  max-width: 100%;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  letter-spacing: 0.7px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.card-content {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.45px;
+  line-height: 28px;
+  padding: 0 0 15px;
+}
+
+a {
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  line-height: 28px;
+  color: black;
+  margin: 0 0 15px;
+}
+
+.care-container {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.care-title {
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+  line-height: 35px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.care-content {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  margin: 0 0 25px;
+}
+
+.blank {
+  width: 200px;
+  aspect-ratio: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.section {
+  max-width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+}
+
+.icon-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px 0;
+}
+
+.logo {
+  max-width: 10%;
+}
+
+.section-title {
+  max-width: 100%;
+  display: inline;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section-content {
+  max-width: 100%;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.line {
+  width: 15%;
+  height: 2px;
+  background-color: black;
+  margin: 2rem auto;
+}
+
+.section-title2 {
+  max-width: 95%;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section-content2 {
+  max-width: 100%;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.no-animal-test {
+  padding: 30px 0;
+  display: hidden;
+}
+
+.banner {
+  max-width: 100%;
+  display: none;
+}
+
+.footer {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.customer-service {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.link {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-right-content {
+  max-width: 70%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.form {
+  max-width: 100%;
+  padding: 30px;
+  display: flex;
+}
+
+.email {
+  width: 70%;
+}
+
+button {
+  width: 30%;
+  background-color: black;
+  color: white;
+}
+
+.more {
+  text-decoration: none;
+}
+
+.social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.fb,
+.ig,
+.youtube {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    min-width: 100%;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .card-title {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+    padding: 10px;
+    text-align: center;
+  }
+  .card-content {
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+  }
+  a {
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+  }
+
+  .care-container {
+    display: flex;
+    max-width: 100%;
+    padding: 100px 0;
+  }
+  .care-title {
+    width: 40%;
+  }
+  .care-content {
+    width: 60%;
+    max-width: 50%;
+  }
+  .logo {
+    max-width: 56px;
+  }
+  .section-title {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .section-content {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .line {
+    width: 10%;
+    height: 2px;
+    background-color: black;
+    margin: 2rem auto;
+  }
+  .section-title2 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .section-content2 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .no-animal-test {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .banner {
+    display: unset;
+    padding: 30px 0;
+  }
+  .more {
+    text-decoration: none;
+  }
+}
